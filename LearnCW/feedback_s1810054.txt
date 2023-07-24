@@ -1,0 +1,53 @@
+=== Inf2B cwk feedback for s1810054 ==================
+
+Task1.1:	5  
+
+Task1.2:	5  
+
+Task1.3:	9  
+Error in the Mat values
+
+Task1.4:	23.5
+Error in the calculation of final CM
+Good work in the coding with minor errors.
+
+Task1.5:	3.5
+there is no much discussion, especially regarding the reason why epsilon=0 is problematic.
+
+* TASK1 MARKS (out of 50): 46
+-------------------------------------------------------
+
+Task2.1:	3  
+Good
+
+Task2.2:	3  
+Good
+
+Task2.3:	8  
+Good
+
+Task2.4:	5  
+Good
+
+Task2.5:	4  
+Good
+
+Task2.6:	6  
+Good
+
+Task2.7:	4  
+Good
+
+Task2.8:	5  
+Good
+
+Task2.9:	4  
+Good
+Task2.10:	8  
+Very good!
+
+* TASK2 MARKS (out of 50): 50
+-------------------------------------------------------
+
+* TOTAL RAW MARKS (out of 100): 96
+=======================================================

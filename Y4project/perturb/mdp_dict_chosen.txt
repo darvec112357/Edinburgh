@@ -1,0 +1,8 @@
+{
+    "MDP_lp" : ["topic_fam", "correct_so_far","av_time"],
+    "MDP_aug4":["topic_fam", "correct_so_far","av_time","expl_received"],
+    "MDP_aug46":["topic_fam", "correct_so_far","av_time","expl_received", "ssl"],
+    "MDP_aug468":["topic_fam", "correct_so_far","av_time","expl_received", "ssl", "prev_correct"],
+    "MDP_aug4687":["topic_fam", "correct_so_far","av_time","expl_received", "ssl", "prev_correct","av_fam"]
+}
+

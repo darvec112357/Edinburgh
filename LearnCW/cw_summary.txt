@@ -1,0 +1,100 @@
+
+---- Statistics ----------------------------------------------
+Task1  mean=37.0, median=40.0
+Task2  mean=35.5, median=42.5
+All    mean=72.5, median=80.0
+
+---- General comments -----------------------------------------
+
+Task 1.1
+Most of the students were able to calculate the correct S/R matrices, only small number of students had a problem of the normalisation term and caused either S or R fails, and the another is pass
+
+Task 1.2
+Most of the students were able to draw a graph to represent the correlation of the features
+Some students failed to identify the positively/negatively correlation pairs, where they only mentioned the features are correlated.
+Few students only explained what is correlation, but failed to point out the correlated pairs
+
+Task 1.3
+Number of students had problem of calculating EVecs, but they correctly produced EVals.
+Few students had problems of understanding the concept of CumVar, and this leads to the wrong calculation of both CumVar and MiniDims
+Overall, most of the students had clear concepts in this part.
+
+# Graph
+Students were able to produce a clear graph to show the cumulative variance
+Students were able to produce a clear graph to show the features after PCA, but some students did not put the legend of the graph, or just use a number to represent different classes and this is considered as unclearly presented.
+
+Task 1.4
+Less than 20% of the students submitted the code with minor calculation problems
+More than 50% of the students showed the understanding of the concept for PMap, Ms, Covs, CM, but they coded wrongly
+Some students had problems of running the entire code due to the loading 'dest' file
+About 20% of the students had the problem of naming the Mat file.
+
+#Graph
+Almost all the students were able to show the accuracy with different CovKind, only few students show relatively low accuracy, or did not finish coding.
+
+Task 1.5
+Most of the students showed how the different values of the epsilon affects the accuracy, but they failed to explain what happens and why the epsilon can not be the value of zero.
+
+Task 2.1
+There are generally three kinds of mistakes:
+1. Dimension mismatch in multiplication. Please check the transpose of
+matrix to make sure that the dimensions are matched.
+2. Forget to attach the bias term or attach it in a wrong order.
+3. Using operations for each element in the matrix rather than using matrix
+operations directly.
+
+Task 2.2
+Other than the common mistakes in Task 2.1, some students wrongly implement
+the sigmoid function. For example, some students forgot the negative sign in
+the equation.
+
+Task 2.3
+Generally speaking, the weights in the first layer should determine the
+relationship between the point and the four sides of the polygon. Then the
+following layers act as logic gates, which concludes the classification
+result.
+The report should better give a figure of the neural network structure,
+explain how each layer functions and how to calculate the weight in each
+layer. 
+Common mistakes are:
+1. Forget to normalize each weight.
+2. The second layer does not give proper logical decisions.
+3. The calculation of the first layer weights is incorrect.
+
+Task 2.4
+Students should use neurons instead of if-else statement when implementing
+the function. That is, one should directly call existing functions written
+in previous tasks.
+
+Task 2.5
+No extra comments
+
+Task 2.6
+Similar to Task 2.3, but the design of the logic gates layers is more
+complex.
+Common mistakes are:
+1. Using operations for each element in the matrix rather than using matrix
+operations directly.
+2. The calculation of weights is incorrect.
+3. Use if-else statements rather than neurons to implement the function.
+
+Task 2.7
+No extra comments
+
+Task 2.8
+Similar to Task 2.6, but the two differences are:
+1. replace the activation function as the sigmoid function.
+2. multiply a large constant to approximate the decision boundary.
+
+Task 2.9
+No extra comments
+
+
+Task 2.10
+The report should include the following:
+Discuss the influence of sigmoid functions. What difference will be
+introduced when replacing the activation function as the sigmoid function.
+Talk about the reason for exaggerating the weights by multiplying a large
+constant. How the boundary looks like under different settings. It would be
+better to use a figure for illustration. 
+

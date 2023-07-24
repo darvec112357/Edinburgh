@@ -1,0 +1,1 @@
+{"topic_fam": "1", "part_fam": "0", "av_fam": "1", "prev_correct": "2", "correct_so_far": "1", "av_time": "1", "slow_answer": "0", "lects_consumed": "1", "time_in_part": "1", "expl_received": "1", "sec_guess": "1", "ssl": "3"}

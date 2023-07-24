@@ -1,0 +1,46 @@
+The following line threw a UnicodeEncodeError exception: gbk:
+ppEandT(worst10_ascci_ents)
+-------
+The following line threw a UnicodeEncodeError exception: gbk:
+ppEandT(worst10_non_eng_ents)
+-------
+The following line threw a NotImplementedError exception:
+training_features = apply_extractor(your_feature_extractor, ppattach.tuples("training"))
+-------
+The following line threw a NotImplementedError exception:
+dev_features = apply_extractor(your_feature_extractor, ppattach.tuples("devset"))
+-------
+The following line threw a NameError exception: name 'training_features' is not defined:
+logistic_regression_model = NltkClassifierWrapper(MaxentClassifier, training_features, max_iter=10)
+-------
+The following line threw a NameError exception: name 'logistic_regression_model' is not defined:
+lr_acc = compute_accuracy(logistic_regression_model, dev_features)
+-------
+The following line threw a NameError exception: name 'logistic_regression_model' is not defined:
+logistic_regression_model.show_most_informative_features(30)
+-------
+The following line threw a NameError exception: name 'lr_acc' is not defined:
+print(f"Accuracy on the devset: {lr_acc*100}")
+-------
+Exception in answer dict value computation:
+    [naive_bayes.likelihood["V"][("v", "rose")],
+                     naive_bayes.likelihood["V"][("p", "of")],
+                     naive_bayes.likelihood["N"][("p", "of")],
+                     naive_bayes.likelihood["N"][("n2", "609")],
+                     naive_bayes.likelihood["V"][("n2", "609")],
+                     naive_bayes.likelihood["V"][("n1", "million")],
+                     naive_bayes.likelihood["N"][("n1", "million")]
+                     ] -> KeyError(('n2', '609'))
+  File "D:\fnlp\assignment1\autodrive_embed.py", line 55, in safeEval
+    return eval(expr,gdict)
+  File "<string>", line 4, in <module>
+Exception in answer dict value computation:
+    answer_open_question_8 -> NameError("name 'answer_open_question_8' is not defined")
+  File "D:\fnlp\assignment1\autodrive_embed.py", line 55, in safeEval
+    return eval(expr,gdict)
+  File "<string>", line 1, in <module>
+Exception in answer dict value computation:
+    "".join(logistic_regression_model.classify(d) for (d, gold) in dev_features) -> NameError("name 'dev_features' is not defined")
+  File "D:\fnlp\assignment1\autodrive_embed.py", line 55, in safeEval
+    return eval(expr,gdict)
+  File "<string>", line 1, in <module>

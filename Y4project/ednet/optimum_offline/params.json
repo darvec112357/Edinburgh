@@ -1,0 +1,77 @@
+{
+  "action_scaler": null,
+  "alpha": 1.0,
+  "batch_size": 68,
+  "encoder_factory": {
+    "type": "vector",
+    "params": {
+      "hidden_units": [
+        256,
+        256
+      ],
+      "activation": "relu",
+      "use_batch_norm": false,
+      "dropout_rate": null,
+      "use_dense": false
+    }
+  },
+  "gamma": 0.99,
+  "generated_maxlen": 100000,
+  "learning_rate": 6.25e-05,
+  "n_critics": 1,
+  "n_frames": 1,
+  "n_steps": 1,
+  "optim_factory": {
+    "optim_cls": "Adam",
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0,
+    "amsgrad": false
+  },
+  "q_func_factory": {
+    "type": "mean",
+    "params": {
+      "bootstrap": false,
+      "share_encoder": false
+    }
+  },
+  "real_ratio": 1.0,
+  "scaler": {
+    "type": "min_max",
+    "params": {
+      "maximum": [
+        [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          8.0,
+          2.0,
+          4.0
+        ]
+      ],
+      "minimum": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "target_reduction_type": "min",
+  "target_update_interval": 8000,
+  "use_gpu": 0,
+  "algorithm": "DiscreteCQL",
+  "observation_shape": [
+    7
+  ],
+  "action_size": 37
+}
